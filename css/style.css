@@ -1,0 +1,12 @@
+
+.hero {
+    margin: 0;
+    padding: 10% 20%;
+    font-size: 2em;
+    background-color: #8BC34A;
+    text-align: center;
+    color: #fff;
+}
+.hero em {
+    font-weight: bold;
+}
