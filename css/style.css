@@ -1,12 +1,32 @@
-
+.logo {
+    margin: -1% 0 -4% 0;
+}
 .hero {
     margin: 0;
     padding: 10% 20%;
-    font-size: 2em;
+    font-size: 2rem;
     background-color: #8BC34A;
     text-align: center;
     color: #fff;
 }
 .hero em {
     font-weight: bold;
+    font-size: 1.3em;
+}
+.warning {
+    margin: 4%;
+    background-color: rgba(255, 0, 0, 0.75);
+    padding: 4% 10%;
+    color: white;
+}
+
+.feature {
+    padding: 1% 4%;
+    text-align: justify;
+}
+.feature:nth-child(even) {
+    background-color: rgba(233, 253, 234, 0.6);
+}
+.feature-title {
+    text-align: center;
 }
