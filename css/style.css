@@ -1,27 +1,39 @@
 .logo {
     margin: -1% 0 -4% 0;
 }
+
 .hero {
     margin: 0;
     padding: 10% 20%;
-    font-size: 2rem;
-    background-color: #8BC34A;
+
     text-align: center;
+
     color: #fff;
+    background-color: #8BC34A;
+
+    font-size: 2rem;
 }
 .hero em {
-    font-weight: bold;
     font-size: 1.3em;
+    font-weight: bold;
 }
+
 .warning {
-    margin: 4%;
-    background-color: rgba(255, 0, 0, 0.75);
-    padding: 4% 10%;
+    margin: 6%;
+    padding: 1% 7% 2%;
+
     color: white;
+    background-color: rgba(255, 0, 0, 0.75);
+    box-shadow: 0.7em 0.7em 0.4em 0 rgba(0, 0, 0, 0.1);
+}
+.warning em {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .feature {
     padding: 1% 4%;
+
     text-align: justify;
 }
 .feature:nth-child(even) {
