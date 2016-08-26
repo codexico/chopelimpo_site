@@ -1,10 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .logo {
     margin: -1% 0 -4% 0;
 }
 
 .hero {
     margin: 0;
-    padding: 10% 20%;
+    padding: 3em 4em;
 
     text-align: center;
 
@@ -19,8 +25,8 @@
 }
 
 .warning {
-    margin: 6%;
-    padding: 1% 7% 2%;
+    margin: 4em 5em 7em 4em;
+    padding: 1em 4em 2em 4em;
 
     color: white;
     background-color: rgba(255, 0, 0, 0.75);
@@ -32,13 +38,35 @@
 }
 
 .feature {
-    padding: 1% 4%;
+    margin: 2em 4em 4em;
+    padding-bottom: 4em;
 
     text-align: justify;
+
+    border-bottom: 3px #ccc dashed;
 }
-.feature:nth-child(even) {
-    background-color: rgba(233, 253, 234, 0.6);
+.feature-icon {
+    text-align: center;
+
+    color: #777;
+
+    font-size: 6rem;
 }
 .feature-title {
     text-align: center;
+    text-transform: uppercase;
+
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.postal_adress {
+    margin-bottom: 2em;
+    padding: 1em 2em 1em 3em;
+
+    border-radius: 2em;
+    background-color: #eee;
+
+    font-size: 0.8rem;
+    line-height: 0.5rem;
 }
