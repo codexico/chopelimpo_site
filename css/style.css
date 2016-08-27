@@ -91,6 +91,9 @@ html {
     font-size: 0.7rem;
     line-height: 0.5rem;
 }
+.postal_adress-location:first-child {
+    margin-bottom: 1.7rem;
+}
 
 @media screen and (min-width: 50em) {
     .feature {
@@ -123,6 +126,13 @@ html {
     .attribute-text {
         font-size: 0.6rem;
         margin: auto 1rem;
+    }
+    .postal_adress-locations {
+        display: flex;
+        align-content: stretch;
+    }
+    .postal_adress-location {
+        flex: 1;
     }
 }
 
