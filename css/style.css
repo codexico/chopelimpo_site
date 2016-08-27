@@ -4,7 +4,14 @@
 html {
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+.logo {
+    padding: 4px 8px;
+}
+.logo-img {
+    width: 33%;
+    max-width: 223px;
+    min-width: 6rem;
+}
 .hero {
     margin: 0;
     padding: 2rem 3rem;
