@@ -4,9 +4,6 @@
 body {
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.logo {
-    margin: -1% 0 -4% 0;
-}
 
 .hero {
     margin: 0;
@@ -59,6 +56,23 @@ body {
     font-size: 2rem;
     font-weight: lighter;
 }
+
+.attribute {
+    display: flex;
+    text-align: left;
+    margin: 2rem 2rem;
+
+    align-items: center;
+}
+.attribute-icon {
+    font-size: 3rem;
+}
+.attribute-text {
+    margin-left: 2rem;
+
+    font-size: 2rem;
+}
+
 
 .postal_adress {
     margin-bottom: 2em;

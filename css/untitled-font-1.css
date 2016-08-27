@@ -146,3 +146,39 @@
 .icon-banknote:before {
   content: "\4a";
 }
+.icon-sound:before {
+  content: "\4b";
+}
+.icon-settings-streamline-2:before {
+  content: "\4c";
+}
+.icon-power-off:before {
+  content: "\4e";
+}
+.icon-power:before {
+  content: "\4f";
+}
+.icon-power-1:before {
+  content: "\4d";
+}
+.icon-briefcase:before {
+  content: "\51";
+}
+.icon-forward:before {
+  content: "\50";
+}
+.icon-waterdrop:before {
+  content: "\52";
+}
+.icon-water:before {
+  content: "\53";
+}
+.icon-bolt:before {
+  content: "\54";
+}
+.icon-list:before {
+  content: "\55";
+}
+.icon-beer-2:before {
+  content: "\56";
+}
