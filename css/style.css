@@ -1,20 +1,20 @@
 * {
     box-sizing: border-box;
 }
-body {
+html {
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .hero {
     margin: 0;
-    padding: 3em 4em;
+    padding: 2rem 3rem;
 
     text-align: center;
 
     color: #fff;
     background-color: #8BC34A;
 
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .hero em {
     font-size: 1.3em;
@@ -22,12 +22,12 @@ body {
 }
 
 .warning {
-    margin: 4em 5em 7em 4em;
-    padding: 1em 4em 2em 4em;
-
+    margin: 1rem 1.3rem 3rem 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     color: white;
     background-color: rgba(255, 0, 0, 0.75);
-    box-shadow: 0.7em 0.7em 0.4em 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0.7rem 0.7rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+    font-size: 0.7rem;
 }
 .warning em {
     font-size: 1.3em;
@@ -35,12 +35,12 @@ body {
 }
 
 .feature {
-    margin: 2em 4em 4em;
-    padding-bottom: 4em;
+    margin: 2rem 2rem 3rem;
+    padding-bottom: 2rem;
 
     text-align: justify;
 
-    border-bottom: 3px #ccc dashed;
+    border-bottom: 2px #ccc dashed;
 }
 .feature-icon {
     text-align: center;
@@ -59,28 +59,57 @@ body {
 
 .attribute {
     display: flex;
+
+    margin: 1.8rem 0rem;
+
     text-align: left;
-    margin: 2rem 2rem;
 
     align-items: center;
 }
 .attribute-icon {
-    font-size: 3rem;
+    font-size: 1.2rem;
 }
 .attribute-text {
-    margin-left: 2rem;
+    margin-left: 1rem;
 
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 
 .postal_adress {
-    margin-bottom: 2em;
-    padding: 1em 2em 1em 3em;
-
-    border-radius: 2em;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
     background-color: #eee;
-
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 0.5rem;
+}
+@media screen and (min-width: 50em) {
+    .feature {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 46em;
+    }
+    .hero {
+        margin-bottom: 6rem;
+        padding: 7% 33% 9%;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    .warning {
+        position: absolute;
+        top: 23rem;
+        right: 2rem;
+        width: 14rem;
+        margin: 0;
+        padding: 0.4rem 0.9rem 0.4rem 1.4rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (min-width: 90em) {
+    .warning {
+        top: 28rem;
+        right: 22rem;
+    }
 }
