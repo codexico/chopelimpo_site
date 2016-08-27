@@ -84,6 +84,7 @@ html {
     font-size: 0.7rem;
     line-height: 0.5rem;
 }
+
 @media screen and (min-width: 50em) {
     .feature {
         margin-left: auto;
@@ -104,6 +105,17 @@ html {
         margin: 0;
         padding: 0.4rem 0.9rem 0.4rem 1.4rem;
         font-size: 0.6rem;
+    }
+    .attributes {
+        display: flex;
+    }
+    .attribute {
+        flex-direction: column;
+        text-align: center;
+    }
+    .attribute-text {
+        font-size: 0.6rem;
+        margin: auto 1rem;
     }
 }
 
