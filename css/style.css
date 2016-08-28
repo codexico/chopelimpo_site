@@ -140,7 +140,6 @@ a {
         margin-left: auto;
     }
     .hero {
-        /*margin-bottom: 6rem;*/
         padding: 7% 33% 9%;
 
         font-size: 1.3rem;
@@ -148,7 +147,7 @@ a {
     }
     .warning {
         position: absolute;
-        top: 23rem;
+        top: 17rem;
         right: 2rem;
 
         width: 14rem;
@@ -184,7 +183,7 @@ a {
 
 @media screen and (min-width: 90em) {
     .warning {
-        top: 28rem;
+        top: 21rem;
         right: 22rem;
     }
 }
